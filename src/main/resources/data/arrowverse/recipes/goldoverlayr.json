@@ -1,0 +1,11 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "arrowverse:yellowiron"
+  },
+  "result": {
+    "item": "arrowverse:goldoverlay"
+  }
+}

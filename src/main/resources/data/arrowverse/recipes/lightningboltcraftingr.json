@@ -1,0 +1,30 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 4 ",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "arrowverse:yellowiron"
+    },
+    "2": {
+      "item": "arrowverse:yellowiron"
+    },
+    "4": {
+      "item": "arrowverse:yellowiron"
+    },
+    "6": {
+      "item": "arrowverse:yellowiron"
+    },
+    "7": {
+      "item": "arrowverse:yellowiron"
+    }
+  },
+  "result": {
+    "item": "arrowverse:lightningboltcrafting",
+    "count": 1
+  }
+}

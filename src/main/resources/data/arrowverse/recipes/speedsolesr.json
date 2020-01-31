@@ -1,0 +1,26 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:yellowiron"
+    },
+    "2": {
+      "item": "arrowverse:yellowiron"
+    },
+    "3": {
+      "item": "arrowverse:yellowiron"
+    },
+    "5": {
+      "item": "arrowverse:yellowiron"
+    }
+  },
+  "result": {
+    "item": "arrowverse:speedsoles",
+    "count": 1
+  }
+}

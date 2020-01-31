@@ -1,0 +1,22 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:yellowiron"
+    },
+    "1": {
+      "item": "arrowverse:flashinsignia"
+    },
+    "2": {
+      "item": "arrowverse:yellowiron"
+    }
+  },
+  "result": {
+    "item": "arrowverse:flashbelt",
+    "count": 1
+  }
+}

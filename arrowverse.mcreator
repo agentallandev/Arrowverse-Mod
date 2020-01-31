@@ -275,6 +275,224 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "FlashSuit",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SuitFabricator",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedMask",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedShirt",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedPants",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBoots",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SuitFabricatorGui",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LightningBoltCrafting",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FlashInsignia",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LightningBoltCraftingR",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FlashInsigniaR",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedSoles",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedSolesR",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldOverlay",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldOverlayR",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FlashBelt",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FlashBeltR",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LightningBoltThrown",
+      "type": "gun",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LightningBoltThrownR",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SuitFabricatorCrafting",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenSuitFabricatorGui",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -288,11 +506,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.arrowverse.greenfabric": "Green Fabric",
       "item.arrowverse.yellowiron": "Yellow Iron",
-      "item.arrowversecore.orangeiron": "Orange Iron",
       "item.arrowverse.pinkiron": "Pink Iron",
-      "item.arrowversecore.pinkfabric": "Pink Fabric",
       "item.arrowverse.orangefabric": "Orange Fabric",
       "item.arrowversecore.blackfabric": "Black Fabric",
       "item.arrowversecore.purpleiron": "Purple Iron",
@@ -300,30 +515,48 @@
       "item.arrowverse.bluefabric": "Blue Fabric",
       "item.arrowversecore.redfabric": "Red Fabric",
       "item.arrowversecore.fabric": "Fabric",
-      "item.arrowverse.fabric": "Fabric",
-      "item.arrowversecore.blueiron": "Blue Iron",
-      "item.arrowverse.yellowfabric": "Yellow Fabric",
+      "item.arrowverse.lightningboltthrown": "Lightning Bolt Weapon",
       "item.arrowversecore.greeniron": "Green Iron",
-      "item.arrowversecore.yellowiron": "Yellow Iron",
+      "item.arrowverse.flashsuitbody": "Flash Suit Body",
+      "item.arrowverse.flashsuitlegs": "Flash Suit Leggings",
       "item.arrowversecore.blackiron": "Black Iron",
-      "item.arrowverse.redfabric": "Red Fabric",
       "item.arrowverse.pinkfabric": "Pink Fabric",
-      "item.arrowversecore.greenfabric": "Green Fabric",
-      "item.arrowverse.blackiron": "Black Iron",
-      "item.arrowverse.purplefabric": "Purple Fabric",
       "block.arrowversecore.alloysmelter": "Alloy Smelter",
-      "item.arrowverse.blueiron": "Blue Iron",
       "item.arrowverse.orangeiron": "Orange Iron",
-      "item.arrowversecore.bluefabric": "Blue Fabric",
-      "block.arrowverse.alloysmelter": "Alloy Smelter",
+      "item.arrowverse.lightningboltcrafting": "Lightning Bolt",
+      "item.arrowverse.flashbelt": "Flash Belt",
       "item.arrowversecore.pinkiron": "Pink Iron",
-      "item.arrowversecore.rediron": "Red Iron",
-      "item.arrowverse.blackfabric": "Black Fabric",
       "item.arrowversecore.yellowfabric": "Yellow Fabric",
       "item.arrowverse.rediron": "Red Iron",
       "item.arrowverse.greeniron": "Green Iron",
+      "item.arrowverse.redboots": "Red Boots",
       "item.arrowversecore.orangefabric": "Orange Fabric",
       "item.arrowverse.purpleiron": "Purple Iron",
+      "item.arrowverse.redshirt": "Red Shirt",
+      "item.arrowverse.greenfabric": "Green Fabric",
+      "item.arrowversecore.orangeiron": "Orange Iron",
+      "item.arrowversecore.pinkfabric": "Pink Fabric",
+      "item.arrowverse.flashsuithelmet": "Flash Suit Mask",
+      "item.arrowverse.redmask": "Red Mask",
+      "item.arrowverse.speedsoles": "Speed Soles",
+      "item.arrowverse.flashsuitboots": "Flash Suit Boots",
+      "item.arrowverse.fabric": "Fabric",
+      "block.arrowverse.suitfabricator": "Suit Fabricator",
+      "item.arrowversecore.blueiron": "Blue Iron",
+      "item.arrowverse.yellowfabric": "Yellow Fabric",
+      "item.arrowverse.goldoverlay": "Gold Overlay",
+      "item.arrowversecore.yellowiron": "Yellow Iron",
+      "item.arrowverse.redfabric": "Red Fabric",
+      "item.arrowversecore.greenfabric": "Green Fabric",
+      "item.arrowverse.blackiron": "Black Iron",
+      "item.arrowverse.purplefabric": "Purple Fabric",
+      "item.arrowverse.blueiron": "Blue Iron",
+      "item.arrowverse.redpants": "Red Pants",
+      "item.arrowversecore.bluefabric": "Blue Fabric",
+      "block.arrowverse.alloysmelter": "Alloy Smelter",
+      "item.arrowversecore.rediron": "Red Iron",
+      "item.arrowverse.blackfabric": "Black Fabric",
+      "item.arrowverse.flashinsignia": "Flash Insignia",
       "item.arrowversecore.purplefabric": "Purple Fabric"
     }
   },

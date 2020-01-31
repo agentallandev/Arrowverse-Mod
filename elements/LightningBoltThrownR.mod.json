@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:LightningBoltThrown"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LightningBoltCrafting"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LightningBoltCrafting"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LightningBoltCrafting"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "lightningboltthrownr",
+    "namespace": "mod"
+  }
+}

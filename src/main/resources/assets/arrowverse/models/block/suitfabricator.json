@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arrowverse:blocks/suitfabricatorbottom",
+    "up": "arrowverse:blocks/suitfabricatortop",
+    "north": "arrowverse:blocks/suitfabricatorsides",
+    "east": "arrowverse:blocks/suitfabricatorsides",
+    "south": "arrowverse:blocks/suitfabricatorsides",
+    "west": "arrowverse:blocks/suitfabricatorsides",
+    "particle": "arrowverse:blocks/suitfabricatorbottom"
+  }
+}
