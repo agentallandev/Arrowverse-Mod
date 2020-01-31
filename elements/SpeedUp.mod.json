@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Speed Up",
+    "onKeyPressed": {
+      "name": "MoreSpeed"
+    }
+  }
+}

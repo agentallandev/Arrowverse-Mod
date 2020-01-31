@@ -477,6 +477,74 @@
           }
         ]
       }
+    },
+    {
+      "name": "FlashRun",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoreSpeed",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LessSpeed",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedUp",
+      "type": "keybind",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedDown",
+      "type": "keybind",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -493,6 +561,7 @@
       "item.arrowverse.yellowiron": "Yellow Iron",
       "item.arrowverse.pinkiron": "Pink Iron",
       "item.arrowverse.orangefabric": "Orange Fabric",
+      "key.mcreator.speeddown": "Speed Down",
       "item.arrowversecore.blackfabric": "Black Fabric",
       "item.arrowversecore.purpleiron": "Purple Iron",
       "itemGroup.tabarrowversecoretab": "Arrowverse Core",
@@ -518,6 +587,7 @@
       "item.arrowverse.redshirt": "Red Shirt",
       "item.arrowverse.greenfabric": "Green Fabric",
       "item.arrowversecore.orangeiron": "Orange Iron",
+      "key.mcreator.speedup": "Speed Up",
       "item.arrowversecore.pinkfabric": "Pink Fabric",
       "item.arrowverse.flashsuithelmet": "Flash Suit Mask",
       "item.arrowverse.redmask": "Red Mask",
