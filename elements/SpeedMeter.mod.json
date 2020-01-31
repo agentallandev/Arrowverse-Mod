@@ -1,0 +1,26 @@
+{
+  "_fv": 5,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "conditionxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"condition_input\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"CONDITION\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">SPEED</field></block></value></block></xml>",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Speed : <VAR:SpeedFactor>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Speed : <VAR:SpeedFactor>",
+          "x": 15,
+          "y": 15
+        }
+      }
+    ],
+    "baseTexture": "",
+    "baseTextureW": 0,
+    "baseTextureH": 0
+  }
+}

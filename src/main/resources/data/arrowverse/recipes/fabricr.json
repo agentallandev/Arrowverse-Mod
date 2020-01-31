@@ -1,0 +1,13 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "arrowverse:fabric",
+    "count": 4
+  }
+}

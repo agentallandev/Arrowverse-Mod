@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "arrowverse:blocks/alloysmeltertop",
+    "up": "arrowverse:blocks/alloysmelterside",
+    "north": "arrowverse:blocks/alloysmelterfront",
+    "east": "arrowverse:blocks/alloysmeltertop",
+    "south": "arrowverse:blocks/alloysmeltertop",
+    "west": "arrowverse:blocks/alloysmeltertop",
+    "particle": "arrowverse:blocks/alloysmeltertop"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arrowverse:fabric"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "arrowverse:redfabric",
+    "count": 1
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "AlloySmelter",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AlloySmelterGui",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AlloySmelterOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArrowverseCoreTab",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedIron",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenFabric",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AlloySmelterCrafting",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "RedFabric",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowIron",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenIron",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowFabric",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Fabric",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "FabricR",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GreenFabricR",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedFabricR",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowFabricR",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueFabric",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueFabricR",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueIron",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackIron",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackFabric",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OrangeIron",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OrangeFabric",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackFabricR",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PinkIron",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PinkFabric",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PinkFabricR",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleIron",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleFabric",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PurpleFabricR",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedMeter",
+      "type": "overlay",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SpeedFactor",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.arrowverse.greenfabric": "Green Fabric",
+      "item.arrowverse.yellowiron": "Yellow Iron",
+      "item.arrowversecore.orangeiron": "Orange Iron",
+      "item.arrowverse.pinkiron": "Pink Iron",
+      "item.arrowversecore.pinkfabric": "Pink Fabric",
+      "item.arrowverse.orangefabric": "Orange Fabric",
+      "item.arrowversecore.blackfabric": "Black Fabric",
+      "item.arrowversecore.purpleiron": "Purple Iron",
+      "itemGroup.tabarrowversecoretab": "Arrowverse Core",
+      "item.arrowverse.bluefabric": "Blue Fabric",
+      "item.arrowversecore.redfabric": "Red Fabric",
+      "item.arrowversecore.fabric": "Fabric",
+      "item.arrowverse.fabric": "Fabric",
+      "item.arrowversecore.blueiron": "Blue Iron",
+      "item.arrowverse.yellowfabric": "Yellow Fabric",
+      "item.arrowversecore.greeniron": "Green Iron",
+      "item.arrowversecore.yellowiron": "Yellow Iron",
+      "item.arrowversecore.blackiron": "Black Iron",
+      "item.arrowverse.redfabric": "Red Fabric",
+      "item.arrowverse.pinkfabric": "Pink Fabric",
+      "item.arrowversecore.greenfabric": "Green Fabric",
+      "item.arrowverse.blackiron": "Black Iron",
+      "item.arrowverse.purplefabric": "Purple Fabric",
+      "block.arrowversecore.alloysmelter": "Alloy Smelter",
+      "item.arrowverse.blueiron": "Blue Iron",
+      "item.arrowverse.orangeiron": "Orange Iron",
+      "item.arrowversecore.bluefabric": "Blue Fabric",
+      "block.arrowverse.alloysmelter": "Alloy Smelter",
+      "item.arrowversecore.pinkiron": "Pink Iron",
+      "item.arrowversecore.rediron": "Red Iron",
+      "item.arrowverse.blackfabric": "Black Fabric",
+      "item.arrowversecore.yellowfabric": "Yellow Fabric",
+      "item.arrowverse.rediron": "Red Iron",
+      "item.arrowverse.greeniron": "Green Iron",
+      "item.arrowversecore.orangefabric": "Orange Fabric",
+      "item.arrowverse.purpleiron": "Purple Iron",
+      "item.arrowversecore.purplefabric": "Purple Fabric"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "arrowverse",
+    "modName": "ArrowverseCore",
+    "version": "1.0.0",
+    "author": "allanep9",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "usesProFeatures": false,
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000105419
+}

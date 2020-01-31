@@ -1,0 +1,158 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 362,
+    "renderBgLayer": true,
+    "containerBlock": "AlloySmelter",
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Smelt",
+          "onClick": {
+            "name": "AlloySmelterCrafting"
+          },
+          "width": 100,
+          "height": 40,
+          "name": "Smelt",
+          "x": 469,
+          "y": 170
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inherited",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 500,
+          "y": 102
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 285,
+          "y": 100
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 377,
+          "y": 101
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 331,
+          "y": 172
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Alloy Smelter",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "name": "Alloy Smelter",
+          "x": 355,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ingot",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "name": "Ingot",
+          "x": 278,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fuel",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "name": "Fuel",
+          "x": 328,
+          "y": 211
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Material 2",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "name": "Material 2",
+          "x": 344,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Output",
+          "color": {
+            "value": -15198184,
+            "falpha": 0.0
+          },
+          "name": "Output",
+          "x": 487,
+          "y": 138
+        }
+      }
+    ],
+    "inventories": []
+  }
+}
