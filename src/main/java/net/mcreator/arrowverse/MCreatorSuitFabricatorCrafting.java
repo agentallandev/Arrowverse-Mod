@@ -85,7 +85,7 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof LockableLootTileEntity))
-					((LockableLootTileEntity) inv).setInventorySlotContents((int) (9), new ItemStack(MCreatorFlashSuit.helmet, (int) (((new Object() {
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorFlashSuit.helmet, (int) (((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							TileEntity inv = world.getTileEntity(pos);
 							if (inv instanceof LockableLootTileEntity) {
@@ -175,7 +175,7 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof LockableLootTileEntity))
-					((LockableLootTileEntity) inv).setInventorySlotContents((int) (9), new ItemStack(MCreatorFlashSuit.body, (int) (((new Object() {
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorFlashSuit.body, (int) (((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							TileEntity inv = world.getTileEntity(pos);
 							if (inv instanceof LockableLootTileEntity) {
@@ -257,7 +257,7 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof LockableLootTileEntity))
-					((LockableLootTileEntity) inv).setInventorySlotContents((int) (9), new ItemStack(MCreatorFlashSuit.legs, (int) (((new Object() {
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorFlashSuit.legs, (int) (((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							TileEntity inv = world.getTileEntity(pos);
 							if (inv instanceof LockableLootTileEntity) {
@@ -334,7 +334,7 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof LockableLootTileEntity))
-					((LockableLootTileEntity) inv).setInventorySlotContents((int) (9), new ItemStack(MCreatorFlashSuit.boots, (int) (((new Object() {
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorFlashSuit.boots, (int) (((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {
 							TileEntity inv = world.getTileEntity(pos);
 							if (inv instanceof LockableLootTileEntity) {
