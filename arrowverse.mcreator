@@ -419,22 +419,6 @@
       "ids": {}
     },
     {
-      "name": "LightningBoltThrown",
-      "type": "gun",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "LightningBoltThrownR",
-      "type": "recipe",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "SuitFabricatorCrafting",
       "type": "procedure",
       "sortid": 51,
@@ -515,7 +499,6 @@
       "item.arrowverse.bluefabric": "Blue Fabric",
       "item.arrowversecore.redfabric": "Red Fabric",
       "item.arrowversecore.fabric": "Fabric",
-      "item.arrowverse.lightningboltthrown": "Lightning Bolt Weapon",
       "item.arrowversecore.greeniron": "Green Iron",
       "item.arrowverse.flashsuitbody": "Flash Suit Body",
       "item.arrowverse.flashsuitlegs": "Flash Suit Leggings",
