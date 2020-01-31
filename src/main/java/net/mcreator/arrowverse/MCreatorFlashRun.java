@@ -37,8 +37,7 @@ public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) (arrowverseVariables.WorldVariables
 						.get(world).SpeedFactor), (true), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) (((arrowverseVariables.WorldVariables
-						.get(world).SpeedFactor) / 3) - 0), (true), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 3, (false), (false)));
 		}
 	}
 }

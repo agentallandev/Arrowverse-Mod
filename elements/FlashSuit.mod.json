@@ -10,6 +10,18 @@
     "textureLeggings": "flashleggings",
     "enableBoots": true,
     "textureBoots": "flashboots",
+    "onHelmetTick": {
+      "name": "FlashRun"
+    },
+    "onBodyTick": {
+      "name": "FlashRun"
+    },
+    "onLeggingsTick": {
+      "name": "FlashRun"
+    },
+    "onBootsTick": {
+      "name": "FlashRun"
+    },
     "creativeTab": {
       "value": "CUSTOM:ArrowverseCoreTab"
     },
