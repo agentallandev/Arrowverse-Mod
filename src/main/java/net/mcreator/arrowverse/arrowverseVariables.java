@@ -59,6 +59,7 @@ public class arrowverseVariables {
 
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "arrowverse_mapvars";
+		public boolean Speedster = false;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -70,10 +71,12 @@ public class arrowverseVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
+			Speedster = nbt.getBoolean("Speedster");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
+			nbt.putBoolean("Speedster", Speedster);
 			return nbt;
 		}
 
