@@ -1,10 +1,13 @@
 {
+  "block.arrowverse.speedforceore": "Speed Force Ore",
   "item.arrowverse.yellowiron": "Yellow Iron",
   "item.arrowverse.pinkiron": "Pink Iron",
   "item.arrowverse.orangefabric": "Orange Fabric",
   "key.mcreator.speeddown": "Speed Down",
   "item.arrowversecore.blackfabric": "Black Fabric",
+  "item.arrowverse.speedforceingot": "Speed Force Ingot",
   "item.arrowversecore.purpleiron": "Purple Iron",
+  "block.arrowverse.speedforceblock": "Speed Force Block",
   "itemGroup.tabarrowversecoretab": "Arrowverse Core",
   "item.arrowverse.bluefabric": "Blue Fabric",
   "item.arrowversecore.redfabric": "Red Fabric",
@@ -34,6 +37,7 @@
   "item.arrowverse.redmask": "Red Mask",
   "item.arrowverse.speedsoles": "Speed Soles",
   "item.arrowverse.flashsuitboots": "Flash Suit Boots",
+  "item.arrowverse.speedforce": "Speed Force Portal Igniter",
   "item.arrowverse.fabric": "Fabric",
   "block.arrowverse.suitfabricator": "Suit Fabricator",
   "item.arrowversecore.blueiron": "Blue Iron",
@@ -51,5 +55,7 @@
   "item.arrowversecore.rediron": "Red Iron",
   "item.arrowverse.blackfabric": "Black Fabric",
   "item.arrowverse.flashinsignia": "Flash Insignia",
-  "item.arrowversecore.purplefabric": "Purple Fabric"
+  "item.arrowversecore.purplefabric": "Purple Fabric",
+  "biome.arrowverse.speedforcebiome": "Speed Force Biome",
+  "key.mcreator.speedforcewarp": "Speed Force Warp"
 }

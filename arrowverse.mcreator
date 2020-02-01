@@ -545,6 +545,78 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SpeedForceIngot",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedForceOre",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedForceBlock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedForceBiome",
+      "type": "biome",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedForce",
+      "type": "dimension",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedForceBlockR",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SpeedForceTravel",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedForceWarp",
+      "type": "keybind",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -558,12 +630,15 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.arrowverse.speedforceore": "Speed Force Ore",
       "item.arrowverse.yellowiron": "Yellow Iron",
       "item.arrowverse.pinkiron": "Pink Iron",
       "item.arrowverse.orangefabric": "Orange Fabric",
       "key.mcreator.speeddown": "Speed Down",
       "item.arrowversecore.blackfabric": "Black Fabric",
+      "item.arrowverse.speedforceingot": "Speed Force Ingot",
       "item.arrowversecore.purpleiron": "Purple Iron",
+      "block.arrowverse.speedforceblock": "Speed Force Block",
       "itemGroup.tabarrowversecoretab": "Arrowverse Core",
       "item.arrowverse.bluefabric": "Blue Fabric",
       "item.arrowversecore.redfabric": "Red Fabric",
@@ -593,6 +668,7 @@
       "item.arrowverse.redmask": "Red Mask",
       "item.arrowverse.speedsoles": "Speed Soles",
       "item.arrowverse.flashsuitboots": "Flash Suit Boots",
+      "item.arrowverse.speedforce": "Speed Force Portal Igniter",
       "item.arrowverse.fabric": "Fabric",
       "block.arrowverse.suitfabricator": "Suit Fabricator",
       "item.arrowversecore.blueiron": "Blue Iron",
@@ -610,7 +686,9 @@
       "item.arrowversecore.rediron": "Red Iron",
       "item.arrowverse.blackfabric": "Black Fabric",
       "item.arrowverse.flashinsignia": "Flash Insignia",
-      "item.arrowversecore.purplefabric": "Purple Fabric"
+      "item.arrowversecore.purplefabric": "Purple Fabric",
+      "biome.arrowverse.speedforcebiome": "Speed Force Biome",
+      "key.mcreator.speedforcewarp": "Speed Force Warp"
     }
   },
   "workspaceSettings": {

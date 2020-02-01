@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "arrowverse:blocks/speedforceore",
+    "particle": "arrowverse:blocks/speedforceore"
+  }
+}

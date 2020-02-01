@@ -1,0 +1,42 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "1": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "2": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "3": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "4": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "5": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "6": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "7": {
+      "item": "arrowverse:speedforceingot"
+    },
+    "8": {
+      "item": "arrowverse:speedforceingot"
+    }
+  },
+  "result": {
+    "item": "arrowverse:speedforceblock",
+    "count": 1
+  }
+}
