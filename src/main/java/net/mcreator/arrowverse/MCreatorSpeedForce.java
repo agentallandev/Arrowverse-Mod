@@ -44,7 +44,6 @@ import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import javax.annotation.Nullable;
@@ -180,7 +179,7 @@ public class MCreatorSpeedForce extends Elementsarrowverse.ModElement {
 				}
 
 				public BlockState getDefaultFluid() {
-					return Blocks.WATER.getDefaultState();
+					return MCreatorSpeedForceBlock.block.getDefaultState();
 				}
 			});
 			this.randomSeed.skip(5349);

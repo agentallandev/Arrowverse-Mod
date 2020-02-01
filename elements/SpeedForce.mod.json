@@ -29,13 +29,13 @@
       "value": "CUSTOM:SpeedForceBlock"
     },
     "secondaryFillerBlock": {
-      "value": "CUSTOM:SpeedForceOre"
+      "value": "CUSTOM:SpeedForceBlock"
     },
     "tertiaryFillerBlock": {
       "value": ""
     },
     "fluidBlock": {
-      "value": "Blocks.WATER"
+      "value": "CUSTOM:SpeedForceBlock"
     },
     "airColor": {
       "value": -4138753,
