@@ -633,6 +633,20 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SavitarSuit",
+      "type": "armor",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [
@@ -658,12 +672,16 @@
       "itemGroup.tabarrowversecoretab": "Arrowverse Core",
       "item.arrowverse.bluefabric": "Blue Fabric",
       "item.arrowversecore.redfabric": "Red Fabric",
+      "item.arrowverse.savitarsuithelmet": "Savitar Suit Helmet",
       "item.arrowversecore.fabric": "Fabric",
       "item.arrowversecore.greeniron": "Green Iron",
+      "item.arrowverse.savitarsuitlegs": "Savitar Suit Leggings",
       "item.arrowverse.flashsuitbody": "Flash Suit Body",
       "item.arrowverse.flashsuitlegs": "Flash Suit Leggings",
       "item.arrowverse.pinkfabric": "Pink Fabric",
       "item.arrowversecore.blackiron": "Black Iron",
+      "item.arrowverse.savitarsuitbody": "Savitar Suit Body",
+      "item.arrowverse.savitarsuitboots": "Savitar Suit Boots",
       "block.arrowversecore.alloysmelter": "Alloy Smelter",
       "item.arrowverse.orangeiron": "Orange Iron",
       "item.arrowverse.lightningboltcrafting": "Lightning Bolt",
