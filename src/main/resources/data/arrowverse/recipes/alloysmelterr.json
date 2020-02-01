@@ -1,0 +1,42 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:brick_slab"
+    },
+    "1": {
+      "item": "minecraft:brick_slab"
+    },
+    "2": {
+      "item": "minecraft:brick_slab"
+    },
+    "3": {
+      "item": "minecraft:bricks"
+    },
+    "4": {
+      "item": "minecraft:furnace"
+    },
+    "5": {
+      "item": "minecraft:bricks"
+    },
+    "6": {
+      "item": "minecraft:bricks"
+    },
+    "7": {
+      "item": "minecraft:bricks"
+    },
+    "8": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "arrowverse:alloysmelter",
+    "count": 1
+  }
+}

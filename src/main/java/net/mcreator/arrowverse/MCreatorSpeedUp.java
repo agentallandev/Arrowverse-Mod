@@ -26,7 +26,7 @@ public class MCreatorSpeedUp extends Elementsarrowverse.ModElement {
 	private KeyBinding keys;
 
 	public MCreatorSpeedUp(Elementsarrowverse instance) {
-		super(instance, 56);
+		super(instance, 58);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

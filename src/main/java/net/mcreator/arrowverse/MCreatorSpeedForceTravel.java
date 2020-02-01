@@ -18,7 +18,7 @@ import net.minecraft.entity.Entity;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorSpeedForceTravel extends Elementsarrowverse.ModElement {
 	public MCreatorSpeedForceTravel(Elementsarrowverse instance) {
-		super(instance, 61);
+		super(instance, 62);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

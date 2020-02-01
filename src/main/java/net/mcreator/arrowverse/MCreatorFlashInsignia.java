@@ -12,7 +12,7 @@ public class MCreatorFlashInsignia extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorFlashInsignia(Elementsarrowverse instance) {
-		super(instance, 40);
+		super(instance, 29);
 	}
 
 	@Override

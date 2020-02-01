@@ -19,7 +19,7 @@ import io.netty.buffer.Unpooled;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorOpenSuitFabricatorGui extends Elementsarrowverse.ModElement {
 	public MCreatorOpenSuitFabricatorGui(Elementsarrowverse instance) {
-		super(instance, 52);
+		super(instance, 54);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

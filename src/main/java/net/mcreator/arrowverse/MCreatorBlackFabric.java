@@ -12,7 +12,7 @@ public class MCreatorBlackFabric extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorBlackFabric(Elementsarrowverse instance) {
-		super(instance, 18);
+		super(instance, 19);
 	}
 
 	@Override

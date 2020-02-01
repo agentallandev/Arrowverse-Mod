@@ -45,7 +45,7 @@ public class MCreatorSuitFabricator extends Elementsarrowverse.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public MCreatorSuitFabricator(Elementsarrowverse instance) {
-		super(instance, 33);
+		super(instance, 22);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

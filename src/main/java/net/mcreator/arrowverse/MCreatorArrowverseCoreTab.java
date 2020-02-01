@@ -9,7 +9,7 @@ import net.minecraft.item.ItemGroup;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorArrowverseCoreTab extends Elementsarrowverse.ModElement {
 	public MCreatorArrowverseCoreTab(Elementsarrowverse instance) {
-		super(instance, 21);
+		super(instance, 36);
 	}
 
 	@Override

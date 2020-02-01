@@ -5,7 +5,7 @@ import net.minecraft.world.World;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorLessSpeed extends Elementsarrowverse.ModElement {
 	public MCreatorLessSpeed(Elementsarrowverse instance) {
-		super(instance, 55);
+		super(instance, 57);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

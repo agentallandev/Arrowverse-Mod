@@ -12,7 +12,7 @@
     {
       "name": "AlloySmelterGui",
       "type": "gui",
-      "sortid": 19,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -20,7 +20,7 @@
     {
       "name": "AlloySmelterOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -52,7 +52,7 @@
     {
       "name": "ArrowverseCoreTab",
       "type": "tab",
-      "sortid": 21,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -68,7 +68,7 @@
     {
       "name": "GreenFabric",
       "type": "item",
-      "sortid": 14,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -76,7 +76,7 @@
     {
       "name": "AlloySmelterCrafting",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -87,7 +87,7 @@
     {
       "name": "RedFabric",
       "type": "item",
-      "sortid": 11,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -111,7 +111,7 @@
     {
       "name": "YellowFabric",
       "type": "item",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -119,7 +119,7 @@
     {
       "name": "Fabric",
       "type": "item",
-      "sortid": 10,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -127,7 +127,7 @@
     {
       "name": "FabricR",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -135,7 +135,7 @@
     {
       "name": "GreenFabricR",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -143,7 +143,7 @@
     {
       "name": "RedFabricR",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -151,7 +151,7 @@
     {
       "name": "YellowFabricR",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -159,7 +159,7 @@
     {
       "name": "BlueFabric",
       "type": "item",
-      "sortid": 15,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -167,7 +167,7 @@
     {
       "name": "BlueFabricR",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -191,7 +191,7 @@
     {
       "name": "BlackFabric",
       "type": "item",
-      "sortid": 18,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -207,7 +207,7 @@
     {
       "name": "OrangeFabric",
       "type": "item",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -215,7 +215,7 @@
     {
       "name": "BlackFabricR",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -231,7 +231,7 @@
     {
       "name": "PinkFabric",
       "type": "item",
-      "sortid": 16,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -239,7 +239,7 @@
     {
       "name": "PinkFabricR",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -255,7 +255,7 @@
     {
       "name": "PurpleFabric",
       "type": "item",
-      "sortid": 17,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -263,7 +263,7 @@
     {
       "name": "PurpleFabricR",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -271,7 +271,7 @@
     {
       "name": "SpeedMeter",
       "type": "overlay",
-      "sortid": 31,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -279,7 +279,7 @@
     {
       "name": "FlashSuit",
       "type": "armor",
-      "sortid": 32,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -293,7 +293,7 @@
     {
       "name": "SuitFabricator",
       "type": "block",
-      "sortid": 33,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -301,7 +301,7 @@
     {
       "name": "RedMask",
       "type": "item",
-      "sortid": 34,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -309,7 +309,7 @@
     {
       "name": "RedShirt",
       "type": "item",
-      "sortid": 35,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -317,7 +317,7 @@
     {
       "name": "RedPants",
       "type": "item",
-      "sortid": 36,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -325,7 +325,7 @@
     {
       "name": "RedBoots",
       "type": "item",
-      "sortid": 37,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -333,7 +333,7 @@
     {
       "name": "SuitFabricatorGui",
       "type": "gui",
-      "sortid": 38,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -341,7 +341,7 @@
     {
       "name": "LightningBoltCrafting",
       "type": "item",
-      "sortid": 39,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -349,7 +349,7 @@
     {
       "name": "FlashInsignia",
       "type": "item",
-      "sortid": 40,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -357,7 +357,7 @@
     {
       "name": "LightningBoltCraftingR",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -365,7 +365,7 @@
     {
       "name": "FlashInsigniaR",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -373,7 +373,7 @@
     {
       "name": "SpeedSoles",
       "type": "item",
-      "sortid": 43,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -381,7 +381,7 @@
     {
       "name": "SpeedSolesR",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -389,7 +389,7 @@
     {
       "name": "GoldOverlay",
       "type": "item",
-      "sortid": 45,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -397,7 +397,7 @@
     {
       "name": "GoldOverlayR",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -405,7 +405,7 @@
     {
       "name": "FlashBelt",
       "type": "item",
-      "sortid": 47,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -413,7 +413,7 @@
     {
       "name": "FlashBeltR",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -421,7 +421,7 @@
     {
       "name": "SuitFabricatorCrafting",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -449,7 +449,7 @@
     {
       "name": "OpenSuitFabricatorGui",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -481,7 +481,7 @@
     {
       "name": "FlashRun",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -501,7 +501,7 @@
     {
       "name": "MoreSpeed",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -517,7 +517,7 @@
     {
       "name": "LessSpeed",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -533,7 +533,7 @@
     {
       "name": "SpeedUp",
       "type": "keybind",
-      "sortid": 56,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -541,7 +541,7 @@
     {
       "name": "SpeedDown",
       "type": "keybind",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -549,7 +549,7 @@
     {
       "name": "SpeedForceIngot",
       "type": "item",
-      "sortid": 58,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -557,7 +557,7 @@
     {
       "name": "SpeedForceOre",
       "type": "block",
-      "sortid": 58,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -565,7 +565,7 @@
     {
       "name": "SpeedForceBlock",
       "type": "block",
-      "sortid": 59,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -581,7 +581,7 @@
     {
       "name": "SpeedForce",
       "type": "dimension",
-      "sortid": 60,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -597,7 +597,7 @@
     {
       "name": "SpeedForceTravel",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -613,7 +613,23 @@
     {
       "name": "SpeedForceWarp",
       "type": "keybind",
-      "sortid": 62,
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AlloySmelterR",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SuitFabricatorR",
+      "type": "recipe",
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {}

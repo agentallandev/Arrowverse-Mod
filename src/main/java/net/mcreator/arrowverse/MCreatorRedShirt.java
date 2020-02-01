@@ -12,7 +12,7 @@ public class MCreatorRedShirt extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorRedShirt(Elementsarrowverse instance) {
-		super(instance, 35);
+		super(instance, 25);
 	}
 
 	@Override

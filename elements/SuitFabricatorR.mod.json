@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:SuitFabricator"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": "CUSTOM:RedIron"
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": "CUSTOM:RedIron"
+      },
+      {
+        "value": "Blocks.CRAFTING_TABLE"
+      },
+      {
+        "value": "CUSTOM:RedIron"
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": "CUSTOM:RedIron"
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "suitfabricatorr",
+    "namespace": "mod"
+  }
+}

@@ -73,6 +73,9 @@
     "onRightClicked": {
       "name": "AlloySmelterOnBlockRightClicked"
     },
+    "onTickUpdate": {
+      "name": "AlloySmelterCrafting"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

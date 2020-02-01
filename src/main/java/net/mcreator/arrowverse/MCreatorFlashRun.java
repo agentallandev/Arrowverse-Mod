@@ -11,7 +11,7 @@ import net.minecraft.entity.Entity;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 	public MCreatorFlashRun(Elementsarrowverse instance) {
-		super(instance, 53);
+		super(instance, 55);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

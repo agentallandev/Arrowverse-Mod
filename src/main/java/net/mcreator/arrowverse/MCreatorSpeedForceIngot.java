@@ -12,7 +12,7 @@ public class MCreatorSpeedForceIngot extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorSpeedForceIngot(Elementsarrowverse instance) {
-		super(instance, 58);
+		super(instance, 10);
 	}
 
 	@Override

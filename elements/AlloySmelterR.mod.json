@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:AlloySmelter"
+    },
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE_SLAB#4"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#4"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#4"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.FURNACE"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "alloysmelterr",
+    "namespace": "mod"
+  }
+}

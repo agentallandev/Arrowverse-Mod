@@ -35,6 +35,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
@@ -75,6 +76,30 @@ public class MCreatorAlloySmelter extends Elementsarrowverse.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
+			super.onBlockAdded(state, world, pos, oldState, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			Block block = this;
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
+		}
+
+		@Override
+		public void tick(BlockState state, World world, BlockPos pos, Random random) {
+			super.tick(state, world, pos, random);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			Block block = this;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				MCreatorAlloySmelterCrafting.executeProcedure($_dependencies);
+			}
+			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@Override
