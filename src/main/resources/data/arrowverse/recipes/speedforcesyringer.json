@@ -1,0 +1,16 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "arrowverse:emptysyringe"
+    },
+    {
+      "item": "arrowverse:speedforceescence"
+    }
+  ],
+  "result": {
+    "item": "arrowverse:speedforcesyringe",
+    "count": 1
+  }
+}
