@@ -1,0 +1,42 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:blackiron"
+    },
+    "1": {
+      "item": "arrowverse:blackiron"
+    },
+    "2": {
+      "item": "arrowverse:blackiron"
+    },
+    "3": {
+      "item": "arrowverse:blackiron"
+    },
+    "4": {
+      "item": "arrowverse:reverselightningboltcrafting"
+    },
+    "5": {
+      "item": "arrowverse:blackiron"
+    },
+    "6": {
+      "item": "arrowverse:blackiron"
+    },
+    "7": {
+      "item": "arrowverse:blackiron"
+    },
+    "8": {
+      "item": "arrowverse:blackiron"
+    }
+  },
+  "result": {
+    "item": "arrowverse:reverseflashinsignia",
+    "count": 1
+  }
+}

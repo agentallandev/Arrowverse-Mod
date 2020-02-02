@@ -1,0 +1,30 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    " 4 ",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:rediron"
+    },
+    "1": {
+      "item": "arrowverse:rediron"
+    },
+    "4": {
+      "item": "arrowverse:rediron"
+    },
+    "7": {
+      "item": "arrowverse:rediron"
+    },
+    "8": {
+      "item": "arrowverse:rediron"
+    }
+  },
+  "result": {
+    "item": "arrowverse:reverselightningboltcrafting",
+    "count": 1
+  }
+}

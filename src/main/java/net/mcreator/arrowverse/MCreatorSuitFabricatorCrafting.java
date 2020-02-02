@@ -347,5 +347,325 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) + 1))));
 			}
 		}
+		if ((((new Object() {
+			public int getAmount(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity) {
+					ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+					if (stack != null)
+						return stack.getCount();
+				}
+				return 0;
+			}
+		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) < 1) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(MCreatorYellowSuit.helmet, (int) (1))
+				.getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(MCreatorReverseLightningBoltCrafting.block,
+				(int) (1)).getItem()) && ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(MCreatorReverseLightningBoltCrafting.block,
+				(int) (1)).getItem()))))) {
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (0), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (1), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (3), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv != null && (inv instanceof LockableLootTileEntity))
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorReverseFlashSuit.helmet,
+							(int) (((new Object() {
+								public int getAmount(BlockPos pos, int sltid) {
+									TileEntity inv = world.getTileEntity(pos);
+									if (inv instanceof LockableLootTileEntity) {
+										ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+										if (stack != null)
+											return stack.getCount();
+									}
+									return 0;
+								}
+							}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) + 1))));
+			}
+		}
+		if ((((new Object() {
+			public int getAmount(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity) {
+					ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+					if (stack != null)
+						return stack.getCount();
+				}
+				return 0;
+			}
+		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) < 1) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(MCreatorYellowSuit.body, (int) (1)).getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(MCreatorMaroonOverlay.block, (int) (1))
+				.getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(MCreatorReverseFlashInsignia.block, (int) (1))
+				.getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(MCreatorMaroonOverlay.block, (int) (1))
+				.getItem()) && ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == new ItemStack(MCreatorFlashBelt.block, (int) (1)).getItem()))))))) {
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (0), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (1), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (2), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (3), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (4), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv != null && (inv instanceof LockableLootTileEntity))
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorReverseFlashSuit.body,
+							(int) (((new Object() {
+								public int getAmount(BlockPos pos, int sltid) {
+									TileEntity inv = world.getTileEntity(pos);
+									if (inv instanceof LockableLootTileEntity) {
+										ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+										if (stack != null)
+											return stack.getCount();
+									}
+									return 0;
+								}
+							}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) + 1))));
+			}
+		}
+		if ((((new Object() {
+			public int getAmount(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity) {
+					ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+					if (stack != null)
+						return stack.getCount();
+				}
+				return 0;
+			}
+		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) < 1) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(MCreatorYellowSuit.legs, (int) (1)).getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(MCreatorMaroonOverlay.block, (int) (1))
+				.getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(MCreatorFlashBelt.block, (int) (1)).getItem()) && ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(MCreatorMaroonOverlay.block, (int) (1))
+				.getItem())))))) {
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (0), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (1), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (2), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (3), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (4), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv != null && (inv instanceof LockableLootTileEntity))
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorReverseFlashSuit.legs,
+							(int) (((new Object() {
+								public int getAmount(BlockPos pos, int sltid) {
+									TileEntity inv = world.getTileEntity(pos);
+									if (inv instanceof LockableLootTileEntity) {
+										ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+										if (stack != null)
+											return stack.getCount();
+									}
+									return 0;
+								}
+							}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) + 1))));
+			}
+		}
+		if ((((new Object() {
+			public int getAmount(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity) {
+					ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+					if (stack != null)
+						return stack.getCount();
+				}
+				return 0;
+			}
+		}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) < 1) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(MCreatorYellowSuit.boots, (int) (1)).getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(MCreatorReverseLightningBoltCrafting.block,
+				(int) (1)).getItem()) && (((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (3))).getItem() == new ItemStack(MCreatorReverseLightningBoltCrafting.block,
+				(int) (1)).getItem()) && ((new Object() {
+			public ItemStack getItemStack(BlockPos pos, int sltid) {
+				TileEntity inv = world.getTileEntity(pos);
+				if (inv instanceof LockableLootTileEntity)
+					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == new ItemStack(MCreatorReverseSpeedSoles.block, (int) (1))
+				.getItem())))))) {
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (0), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (1), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (3), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv instanceof LockableLootTileEntity)
+					((LockableLootTileEntity) inv).decrStackSize((int) (4), (int) (1));
+			}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv != null && (inv instanceof LockableLootTileEntity))
+					((LockableLootTileEntity) inv).setInventorySlotContents((int) (5), new ItemStack(MCreatorReverseFlashSuit.boots,
+							(int) (((new Object() {
+								public int getAmount(BlockPos pos, int sltid) {
+									TileEntity inv = world.getTileEntity(pos);
+									if (inv instanceof LockableLootTileEntity) {
+										ItemStack stack = ((LockableLootTileEntity) inv).getStackInSlot(sltid);
+										if (stack != null)
+											return stack.getCount();
+									}
+									return 0;
+								}
+							}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (5))) + 1))));
+			}
+		}
 	}
 }

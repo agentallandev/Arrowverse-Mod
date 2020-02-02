@@ -371,14 +371,6 @@
       "ids": {}
     },
     {
-      "name": "FlashBelt",
-      "type": "item",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "FlashBeltR",
       "type": "recipe",
       "sortid": 52,
@@ -631,14 +623,6 @@
       }
     },
     {
-      "name": "ReverseBelt",
-      "type": "item",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "ReverseFlashInsignia",
       "type": "item",
       "sortid": 69,
@@ -693,6 +677,116 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "FlashBelt",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseBelt",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedMaskR",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedShirtR",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedPantsR",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedBootsR",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseLightningBoltCraftingR",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseFlashInsigniaR",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowMaskR",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowShirtR",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowPantsR",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YellowBootsR",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseFlashSuit",
+      "type": "armor",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [
@@ -752,6 +846,7 @@
       "key.mcreator.speedup": "Speed Up",
       "item.arrowversecore.pinkfabric": "Pink Fabric",
       "item.arrowverse.flashsuithelmet": "Flash Suit Mask",
+      "item.arrowverse.reverseflashsuitboots": "Reverse Flash Boots",
       "item.arrowverse.speedsoles": "Speed Soles",
       "item.arrowverse.flashsuitboots": "Flash Suit Boots",
       "item.arrowverse.speedforce": "Speed Force Portal Igniter",
@@ -763,10 +858,12 @@
       "item.arrowverse.reversebelt": "Reverse Flash Belt",
       "item.arrowversecore.yellowiron": "Yellow Iron",
       "item.arrowverse.redfabric": "Red Fabric",
+      "item.arrowverse.reverseflashsuithelmet": "Reverse Flash Mask",
       "item.arrowversecore.greenfabric": "Green Fabric",
       "item.arrowverse.blackiron": "Black Iron",
       "item.arrowverse.purplefabric": "Purple Fabric",
       "item.arrowverse.yellowsuitbody": "Yellow Shirt",
+      "item.arrowverse.reverseflashsuitbody": "Reverse Flash Shirt",
       "item.arrowverse.yellowsuitlegs": "Yellow Pants",
       "item.arrowverse.blueiron": "Blue Iron",
       "item.arrowversecore.bluefabric": "Blue Fabric",
@@ -774,6 +871,7 @@
       "item.arrowversecore.rediron": "Red Iron",
       "item.arrowverse.blackfabric": "Black Fabric",
       "item.arrowverse.redsuithelmet": "Red Mask",
+      "item.arrowverse.reverseflashsuitlegs": "Reverse Flash Pants",
       "item.arrowverse.maroonoverlay": "Maroon Overlay",
       "item.arrowverse.flashinsignia": "Flash Insignia",
       "item.arrowverse.reverselightningboltcrafting": "Reverse Lightning Bolt",

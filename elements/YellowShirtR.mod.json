@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:YellowSuit.body"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      },
+      {
+        "value": "CUSTOM:YellowFabric"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "yellowmaskr",
+    "namespace": "mod"
+  }
+}

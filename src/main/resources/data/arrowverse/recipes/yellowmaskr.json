@@ -1,0 +1,26 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:yellowfabric"
+    },
+    "2": {
+      "item": "arrowverse:yellowfabric"
+    },
+    "3": {
+      "item": "arrowverse:yellowfabric"
+    },
+    "5": {
+      "item": "arrowverse:yellowfabric"
+    }
+  },
+  "result": {
+    "item": "arrowverse:yellowsuitboots",
+    "count": 1
+  }
+}

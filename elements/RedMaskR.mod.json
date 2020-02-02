@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedSuit.helmet"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedFabric"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "redmaskr",
+    "namespace": "mod"
+  }
+}

@@ -12,7 +12,7 @@ public class MCreatorReverseBelt extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorReverseBelt(Elementsarrowverse instance) {
-		super(instance, 68);
+		super(instance, 77);
 	}
 
 	@Override
