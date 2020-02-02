@@ -16,7 +16,7 @@ public class MCreatorSpeedForceSyringe extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorSpeedForceSyringe(Elementsarrowverse instance) {
-		super(instance, 96);
+		super(instance, 40);
 	}
 
 	@Override

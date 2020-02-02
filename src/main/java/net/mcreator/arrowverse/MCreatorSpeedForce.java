@@ -66,7 +66,7 @@ public class MCreatorSpeedForce extends Elementsarrowverse.ModElement {
 	private static Biome[] dimensionBiomes;
 
 	public MCreatorSpeedForce(Elementsarrowverse instance) {
-		super(instance, 33);
+		super(instance, 43);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}

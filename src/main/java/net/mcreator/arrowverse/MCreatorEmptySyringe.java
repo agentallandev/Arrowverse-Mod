@@ -16,7 +16,7 @@ public class MCreatorEmptySyringe extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorEmptySyringe(Elementsarrowverse instance) {
-		super(instance, 97);
+		super(instance, 41);
 	}
 
 	@Override

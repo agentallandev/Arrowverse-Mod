@@ -14,7 +14,7 @@ public class MCreatorSpeedForceBiome extends Elementsarrowverse.ModElement {
 	public static final CustomBiome biome = null;
 
 	public MCreatorSpeedForceBiome(Elementsarrowverse instance) {
-		super(instance, 60);
+		super(instance, 70);
 	}
 
 	@Override

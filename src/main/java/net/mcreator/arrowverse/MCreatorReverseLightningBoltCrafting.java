@@ -12,7 +12,7 @@ public class MCreatorReverseLightningBoltCrafting extends Elementsarrowverse.Mod
 	public static final Item block = null;
 
 	public MCreatorReverseLightningBoltCrafting(Elementsarrowverse instance) {
-		super(instance, 72);
+		super(instance, 31);
 	}
 
 	@Override

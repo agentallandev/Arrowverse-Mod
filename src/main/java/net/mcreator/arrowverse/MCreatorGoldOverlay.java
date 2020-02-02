@@ -12,7 +12,7 @@ public class MCreatorGoldOverlay extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorGoldOverlay(Elementsarrowverse instance) {
-		super(instance, 31);
+		super(instance, 36);
 	}
 
 	@Override

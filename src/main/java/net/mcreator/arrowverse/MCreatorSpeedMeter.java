@@ -19,7 +19,7 @@ import java.util.Collection;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorSpeedMeter extends Elementsarrowverse.ModElement {
 	public MCreatorSpeedMeter(Elementsarrowverse instance) {
-		super(instance, 46);
+		super(instance, 56);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ public class MCreatorSpeedForceEscence extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorSpeedForceEscence(Elementsarrowverse instance) {
-		super(instance, 98);
+		super(instance, 20);
 	}
 
 	@Override

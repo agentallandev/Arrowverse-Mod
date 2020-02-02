@@ -12,7 +12,7 @@ public class MCreatorGlassTube extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorGlassTube(Elementsarrowverse instance) {
-		super(instance, 93);
+		super(instance, 22);
 	}
 
 	@Override

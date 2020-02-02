@@ -28,7 +28,7 @@ public class MCreatorFlashSuit extends Elementsarrowverse.ModElement {
 	public static final Item boots = null;
 
 	public MCreatorFlashSuit(Elementsarrowverse instance) {
-		super(instance, 23);
+		super(instance, 28);
 	}
 
 	@Override

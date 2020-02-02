@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "redboots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:ArrowverseCoreTab"
     },
     "armorTextureFile": "red_suit",
     "helmetName": "Red Mask",

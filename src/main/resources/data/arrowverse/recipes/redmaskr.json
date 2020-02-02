@@ -2,15 +2,11 @@
   "group": "arrowverse",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5",
-    "6 8"
+    "0 2",
+    "3 5"
   ],
   "key": {
     "0": {
-      "item": "arrowverse:redfabric"
-    },
-    "1": {
       "item": "arrowverse:redfabric"
     },
     "2": {
@@ -21,16 +17,10 @@
     },
     "5": {
       "item": "arrowverse:redfabric"
-    },
-    "6": {
-      "item": "arrowverse:redfabric"
-    },
-    "8": {
-      "item": "arrowverse:redfabric"
     }
   },
   "result": {
-    "item": "arrowverse:redsuitlegs",
+    "item": "arrowverse:redsuitboots",
     "count": 1
   }
 }

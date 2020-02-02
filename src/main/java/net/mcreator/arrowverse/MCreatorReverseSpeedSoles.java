@@ -12,7 +12,7 @@ public class MCreatorReverseSpeedSoles extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorReverseSpeedSoles(Elementsarrowverse instance) {
-		super(instance, 71);
+		super(instance, 35);
 	}
 
 	@Override

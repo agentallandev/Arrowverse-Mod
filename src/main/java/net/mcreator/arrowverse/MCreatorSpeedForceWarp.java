@@ -26,7 +26,7 @@ public class MCreatorSpeedForceWarp extends Elementsarrowverse.ModElement {
 	private KeyBinding keys;
 
 	public MCreatorSpeedForceWarp(Elementsarrowverse instance) {
-		super(instance, 63);
+		super(instance, 73);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}
@@ -80,6 +80,7 @@ public class MCreatorSpeedForceWarp extends Elementsarrowverse.ModElement {
 		{
 			java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 			$_dependencies.put("entity", entity);
+			$_dependencies.put("world", world);
 			MCreatorSpeedForceTravel.executeProcedure($_dependencies);
 		}
 	}

@@ -13,7 +13,7 @@ import net.minecraft.entity.Entity;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 	public MCreatorFlashRun(Elementsarrowverse instance) {
-		super(instance, 55);
+		super(instance, 65);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

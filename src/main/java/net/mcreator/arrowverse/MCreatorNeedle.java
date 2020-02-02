@@ -12,7 +12,7 @@ public class MCreatorNeedle extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorNeedle(Elementsarrowverse instance) {
-		super(instance, 92);
+		super(instance, 21);
 	}
 
 	@Override

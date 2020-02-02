@@ -56,7 +56,7 @@ public class MCreatorBlackFlash extends Elementsarrowverse.ModElement {
 	public static final EntityType arrow = null;
 
 	public MCreatorBlackFlash(Elementsarrowverse instance) {
-		super(instance, 98);
+		super(instance, 42);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

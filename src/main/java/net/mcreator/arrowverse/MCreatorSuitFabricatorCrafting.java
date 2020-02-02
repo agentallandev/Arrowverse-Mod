@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElement {
 	public MCreatorSuitFabricatorCrafting(Elementsarrowverse instance) {
-		super(instance, 53);
+		super(instance, 63);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -19,7 +19,7 @@ import io.netty.buffer.Unpooled;
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorAlloySmelterOnBlockRightClicked extends Elementsarrowverse.ModElement {
 	public MCreatorAlloySmelterOnBlockRightClicked(Elementsarrowverse instance) {
-		super(instance, 35);
+		super(instance, 45);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

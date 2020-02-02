@@ -12,7 +12,7 @@ public class MCreatorMaroonOverlay extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorMaroonOverlay(Elementsarrowverse instance) {
-		super(instance, 70);
+		super(instance, 37);
 	}
 
 	@Override

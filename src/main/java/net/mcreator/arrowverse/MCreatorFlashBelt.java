@@ -12,7 +12,7 @@ public class MCreatorFlashBelt extends Elementsarrowverse.ModElement {
 	public static final Item block = null;
 
 	public MCreatorFlashBelt(Elementsarrowverse instance) {
-		super(instance, 76);
+		super(instance, 38);
 	}
 
 	@Override

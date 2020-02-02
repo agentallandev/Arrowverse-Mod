@@ -36,7 +36,7 @@ public class MCreatorSpeedForceOre extends Elementsarrowverse.ModElement {
 	public static final Block block = null;
 
 	public MCreatorSpeedForceOre(Elementsarrowverse instance) {
-		super(instance, 21);
+		super(instance, 24);
 	}
 
 	@Override
