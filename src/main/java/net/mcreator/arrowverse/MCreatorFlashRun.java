@@ -1,10 +1,12 @@
 package net.mcreator.arrowverse;
 
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.MinecraftForge;
+
 import net.minecraft.world.World;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -12,6 +14,7 @@ import net.minecraft.entity.Entity;
 public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 	public MCreatorFlashRun(Elementsarrowverse instance) {
 		super(instance, 55);
+		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -25,19 +28,31 @@ public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		World world = (World) dependencies.get("world");
-		if ((((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.armorInventory.get(3) : ItemStack.EMPTY).getItem() == new ItemStack(
-				MCreatorFlashSuit.helmet, (int) (1)).getItem()) && (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.armorInventory.get(2)
-				: ItemStack.EMPTY).getItem() == new ItemStack(MCreatorFlashSuit.body, (int) (1)).getItem())) && ((((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.armorInventory.get(1)
-				: ItemStack.EMPTY).getItem() == new ItemStack(MCreatorFlashSuit.legs, (int) (1)).getItem()) && (((entity instanceof PlayerEntity)
-				? ((PlayerEntity) entity).inventory.armorInventory.get(0)
-				: ItemStack.EMPTY).getItem() == new ItemStack(MCreatorFlashSuit.boots, (int) (1)).getItem())))) {
+		if (((arrowverseVariables.MapVariables.get(world).Speedster) == (true))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 1, (int) (arrowverseVariables.WorldVariables
 						.get(world).SpeedFactor), (true), (false)));
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 3, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 2, (false), (false)));
+		}
+	}
+
+	@SubscribeEvent
+	public void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		if (event.phase == TickEvent.Phase.END) {
+			Entity entity = event.player;
+			World world = entity.world;
+			int i = (int) entity.posX;
+			int j = (int) entity.posY;
+			int k = (int) entity.posZ;
+			java.util.HashMap<String, Object> dependencies = new java.util.HashMap<>();
+			dependencies.put("x", i);
+			dependencies.put("y", j);
+			dependencies.put("z", k);
+			dependencies.put("world", world);
+			dependencies.put("entity", entity);
+			dependencies.put("event", event);
+			this.executeProcedure(dependencies);
 		}
 	}
 }
