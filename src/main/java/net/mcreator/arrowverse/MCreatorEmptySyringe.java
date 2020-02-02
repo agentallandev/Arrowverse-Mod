@@ -11,12 +11,12 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 @Elementsarrowverse.ModElement.Tag
-public class MCreatorSpeedForceSyringe extends Elementsarrowverse.ModElement {
-	@ObjectHolder("arrowverse:speedforcesyringe")
+public class MCreatorEmptySyringe extends Elementsarrowverse.ModElement {
+	@ObjectHolder("arrowverse:emptysyringe")
 	public static final Item block = null;
 
-	public MCreatorSpeedForceSyringe(Elementsarrowverse instance) {
-		super(instance, 96);
+	public MCreatorEmptySyringe(Elementsarrowverse instance) {
+		super(instance, 97);
 	}
 
 	@Override
@@ -26,8 +26,8 @@ public class MCreatorSpeedForceSyringe extends Elementsarrowverse.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(MCreatorArrowverseCoreTab.tab).maxStackSize(1));
-			setRegistryName("speedforcesyringe");
+			super(new Item.Properties().group(MCreatorArrowverseCoreTab.tab).maxStackSize(64));
+			setRegistryName("emptysyringe");
 		}
 
 		@Override
@@ -56,7 +56,7 @@ public class MCreatorSpeedForceSyringe extends Elementsarrowverse.ModElement {
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("world", world);
-				MCreatorSetSpeedster.executeProcedure($_dependencies);
+				MCreatorRemoveSpeedster.executeProcedure($_dependencies);
 			}
 			return ar;
 		}

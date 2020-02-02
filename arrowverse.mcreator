@@ -798,6 +798,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -813,6 +817,10 @@
       "ids": {},
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "world",
             "type": "world"
@@ -867,6 +875,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EmptySyringe",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -892,8 +908,8 @@
       "item.arrowverse.redsuitbody": "Red Shirt",
       "item.arrowverse.speedforcesyringe": "Speed Force Syringe",
       "item.arrowverse.pinkiron": "Pink Iron",
-      "item.arrowverse.orangefabric": "Orange Fabric",
       "item.arrowverse.yellowsuithelmet": "Yellow Mask",
+      "item.arrowverse.orangefabric": "Orange Fabric",
       "advancements.speedster.descr": "Craft a Speed Force Syringe",
       "key.mcreator.speeddown": "Speed Down",
       "advancements.speedster.title": "Speedster!!!",
@@ -920,6 +936,7 @@
       "item.arrowverse.redsuitboots": "Red Boots",
       "item.arrowverse.rediron": "Red Iron",
       "item.arrowverse.greeniron": "Green Iron",
+      "item.arrowverse.emptysyringe": "Empty Syringe",
       "item.arrowverse.reversespeedsoles": "Reverse Speed Soles",
       "item.arrowverse.glasstube": "Glass Tube",
       "item.arrowversecore.orangefabric": "Orange Fabric",
