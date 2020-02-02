@@ -14,7 +14,7 @@ public class MCreatorLessSpeed extends Elementsarrowverse.ModElement {
 			return;
 		}
 		World world = (World) dependencies.get("world");
-		if ((((arrowverseVariables.WorldVariables.get(world).SpeedFactor) < 49) && ((arrowverseVariables.WorldVariables.get(world).SpeedFactor) >= 0))) {
+		if ((((arrowverseVariables.WorldVariables.get(world).SpeedFactor) <= 49) && ((arrowverseVariables.WorldVariables.get(world).SpeedFactor) > 0))) {
 			arrowverseVariables.WorldVariables.get(world).SpeedFactor = (double) ((arrowverseVariables.WorldVariables.get(world).SpeedFactor) - 1);
 			arrowverseVariables.WorldVariables.get(world).syncData(world);
 		}
