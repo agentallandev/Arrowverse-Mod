@@ -1,0 +1,26 @@
+{
+  "group": "arrowverse",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "arrowverse:rediron"
+    },
+    "2": {
+      "item": "arrowverse:rediron"
+    },
+    "3": {
+      "item": "arrowverse:rediron"
+    },
+    "5": {
+      "item": "arrowverse:rediron"
+    }
+  },
+  "result": {
+    "item": "arrowverse:reversespeedsoles",
+    "count": 1
+  }
+}

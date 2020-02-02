@@ -390,7 +390,7 @@
       "name": "SuitFabricatorCrafting",
       "type": "procedure",
       "sortid": 53,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "metadata": {
@@ -629,6 +629,70 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "ReverseBelt",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseFlashInsignia",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MaroonOverlay",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseSpeedSoles",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseLightningBoltCrafting",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseFlashBelt",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MaroonOverlayR",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseSpeedSolesR",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -649,6 +713,7 @@
   "language_map": {
     "en_us": {
       "block.arrowverse.speedforceore": "Speed Force Ore",
+      "item.arrowverse.reverseflashinsignia": "Reverse Flash Insignia",
       "item.arrowverse.yellowiron": "Yellow Iron",
       "item.arrowverse.redsuitbody": "Red Shirt",
       "item.arrowverse.pinkiron": "Pink Iron",
@@ -678,6 +743,7 @@
       "item.arrowverse.redsuitboots": "Red Boots",
       "item.arrowverse.rediron": "Red Iron",
       "item.arrowverse.greeniron": "Green Iron",
+      "item.arrowverse.reversespeedsoles": "Reverse Speed Soles",
       "item.arrowversecore.orangefabric": "Orange Fabric",
       "item.arrowverse.purpleiron": "Purple Iron",
       "item.arrowverse.redsuitlegs": "Red Pants",
@@ -694,6 +760,7 @@
       "item.arrowversecore.blueiron": "Blue Iron",
       "item.arrowverse.yellowfabric": "Yellow Fabric",
       "item.arrowverse.goldoverlay": "Gold Overlay",
+      "item.arrowverse.reversebelt": "Reverse Flash Belt",
       "item.arrowversecore.yellowiron": "Yellow Iron",
       "item.arrowverse.redfabric": "Red Fabric",
       "item.arrowversecore.greenfabric": "Green Fabric",
@@ -707,7 +774,9 @@
       "item.arrowversecore.rediron": "Red Iron",
       "item.arrowverse.blackfabric": "Black Fabric",
       "item.arrowverse.redsuithelmet": "Red Mask",
+      "item.arrowverse.maroonoverlay": "Maroon Overlay",
       "item.arrowverse.flashinsignia": "Flash Insignia",
+      "item.arrowverse.reverselightningboltcrafting": "Reverse Lightning Bolt",
       "item.arrowversecore.purplefabric": "Purple Fabric",
       "biome.arrowverse.speedforcebiome": "Speed Force Biome",
       "key.mcreator.speedforcewarp": "Speed Force Warp"
