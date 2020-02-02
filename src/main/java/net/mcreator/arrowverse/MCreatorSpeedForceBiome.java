@@ -7,6 +7,7 @@ import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.entity.EntityClassification;
 
 @Elementsarrowverse.ModElement.Tag
 public class MCreatorSpeedForceBiome extends Elementsarrowverse.ModElement {
@@ -46,6 +47,7 @@ public class MCreatorSpeedForceBiome extends Elementsarrowverse.ModElement {
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addOres(this);
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(MCreatorBlackFlash.entity, 15, 1, 5));
 		}
 	}
 }
