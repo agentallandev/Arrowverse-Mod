@@ -91,7 +91,7 @@
     "breedTriggerItems": [],
     "ranged": true,
     "rangedAttackItem": {
-      "value": ""
+      "value": "CUSTOM:LightningBoltThrown"
     },
     "spawnThisMob": true,
     "doesDespawnWhenIdle": false,

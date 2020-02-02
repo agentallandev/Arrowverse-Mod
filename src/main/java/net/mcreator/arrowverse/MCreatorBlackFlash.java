@@ -212,12 +212,15 @@ public class MCreatorBlackFlash extends Elementsarrowverse.ModElement {
 			return NetworkHooks.getEntitySpawningPacket(this);
 		}
 
-		@Override @OnlyIn(Dist.CLIENT) public ItemStack getItem() {
-			return new ItemStack(, (int)(1));
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public ItemStack getItem() {
+			return new ItemStack(MCreatorLightningBoltThrown.block, (int) (1));
 		}
 
-		@Override protected ItemStack getArrowStack() {
-			return new ItemStack(, (int)(1));
+		@Override
+		protected ItemStack getArrowStack() {
+			return new ItemStack(MCreatorLightningBoltThrown.block, (int) (1));
 		}
 	}
 }

@@ -907,6 +907,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "LightningBoltThrown",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -945,6 +953,7 @@
       "item.arrowverse.bluefabric": "Blue Fabric",
       "item.arrowversecore.redfabric": "Red Fabric",
       "item.arrowversecore.fabric": "Fabric",
+      "item.arrowverse.lightningboltthrown": "Lightning Bolt Thrown",
       "item.arrowversecore.greeniron": "Green Iron",
       "item.arrowverse.flashsuitbody": "Flash Suit Body",
       "item.arrowverse.speedforceescence": "Speed Force Escence",
