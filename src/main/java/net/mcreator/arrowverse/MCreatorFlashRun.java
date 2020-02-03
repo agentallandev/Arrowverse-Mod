@@ -7,6 +7,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.World;
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
@@ -22,11 +23,26 @@ public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 			System.err.println("Failed to load dependency entity for procedure MCreatorFlashRun!");
 			return;
 		}
+		if (dependencies.get("x") == null) {
+			System.err.println("Failed to load dependency x for procedure MCreatorFlashRun!");
+			return;
+		}
+		if (dependencies.get("y") == null) {
+			System.err.println("Failed to load dependency y for procedure MCreatorFlashRun!");
+			return;
+		}
+		if (dependencies.get("z") == null) {
+			System.err.println("Failed to load dependency z for procedure MCreatorFlashRun!");
+			return;
+		}
 		if (dependencies.get("world") == null) {
 			System.err.println("Failed to load dependency world for procedure MCreatorFlashRun!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		int x = (int) dependencies.get("x");
+		int y = (int) dependencies.get("y");
+		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if (((arrowverseVariables.MapVariables.get(world).Speedster) == (true))) {
 			if (entity instanceof LivingEntity)
@@ -34,6 +50,11 @@ public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 						.get(world).SpeedFactor), (true), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 2, (false), (false)));
+		}
+		if ((entity.isSprinting())) {
+			for (int _ct = 0; _ct < 5; _ct++) {
+				world.addOptionalParticle(ParticleTypes.FLAME, x, y, z, 0, 0, 0);
+			}
 		}
 	}
 
