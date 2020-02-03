@@ -50,10 +50,10 @@ public class MCreatorFlashRun extends Elementsarrowverse.ModElement {
 						.get(world).SpeedFactor), (true), (false)));
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 1, (int) 2, (false), (false)));
-		}
-		if ((entity.isSprinting())) {
-			for (int _ct = 0; _ct < 5; _ct++) {
-				world.addOptionalParticle(ParticleTypes.FLAME, x, y, z, 0, 0, 0);
+			if ((entity.isSprinting())) {
+				for (int _ct = 0; _ct < (arrowverseVariables.WorldVariables.get(world).SpeedFactor); _ct++) {
+					world.addOptionalParticle(ParticleTypes.FLAME, x, y, z, 0, 0, 0);
+				}
 			}
 		}
 	}

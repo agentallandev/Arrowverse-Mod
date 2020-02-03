@@ -146,7 +146,7 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == new ItemStack(MCreatorFlashBelt.block, (int) (1)).getItem()))))))) {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(MCreatorFlashBelt.block, (int) (1)).getItem()))))))) {
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv instanceof LockableLootTileEntity)
@@ -462,7 +462,8 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == new ItemStack(MCreatorFlashBelt.block, (int) (1)).getItem()))))))) {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (4))).getItem() == new ItemStack(MCreatorReverseBelt.block, (int) (1))
+				.getItem()))))))) {
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv instanceof LockableLootTileEntity)
@@ -537,7 +538,8 @@ public class MCreatorSuitFabricatorCrafting extends Elementsarrowverse.ModElemen
 					return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(MCreatorFlashBelt.block, (int) (1)).getItem()) && ((new Object() {
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))).getItem() == new ItemStack(MCreatorReverseBelt.block, (int) (1))
+				.getItem()) && ((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				TileEntity inv = world.getTileEntity(pos);
 				if (inv instanceof LockableLootTileEntity)

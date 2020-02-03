@@ -60,6 +60,7 @@ public class arrowverseVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "arrowverse_mapvars";
 		public boolean Speedster = false;
+		public boolean Kryptonian = false;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -72,11 +73,13 @@ public class arrowverseVariables {
 		@Override
 		public void read(CompoundNBT nbt) {
 			Speedster = nbt.getBoolean("Speedster");
+			Kryptonian = nbt.getBoolean("Kryptonian");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putBoolean("Speedster", Speedster);
+			nbt.putBoolean("Kryptonian", Kryptonian);
 			return nbt;
 		}
 
